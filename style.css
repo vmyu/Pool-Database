@@ -1,0 +1,43 @@
+body { background-color: #ddd; font-family: sans-serif; margin: 0; }
+
+#main { 
+	margin: 1em 3em 1em 3em; 
+	padding: 0 1em 1em 1em; 
+	background-color: #fff; 
+	border-top: 0.35em solid #999; 
+	border-left: 0.35em solid #666;
+	border-right: 0.35em solid #888;
+	border-bottom: 0.35em solid #444;
+	color: #444; 
+}
+
+h1 { font-size: 1.4em; color: #39d; }
+h2 { font-size: 1.2em; color: #aaa; font-weight: bold; }
+
+#nav {
+	margin: 0;
+	padding: 0.3em 0 0.25em 0;
+	border-top: 0.2em solid #eee;
+	border-bottom: 0.2em solid #000;			
+}
+
+#content_main {
+	padding: 0.5em 0 0 1em;
+}
+
+#content_main table { 
+	border-top: 0.25em solid #ddd;
+	border-right: 0.15em solid #ddd;
+	border-bottom: 0.15em solid #ddd;
+	border-left: 0.15em solid #ddd; 
+}
+
+#content_main td { padding: 0.25em 0.5em 0.25em 1em;  border: 0.15em solid #aaa; font-size: 0.8em; color: #05a; }
+#content_main th { padding: 0.15em 0.5em 0.15em 0.75em; font-size: 0.95em; color: #9ac; font-weight: bold; }
+
+input { margin: 0.25em 0 0.25em 0; }
+
+#nav a { background-color: inherit; font-size: 1.25em; font-weight: bold; padding: 0.25em 1em 0.25em 0.25em; }
+#nav a:link, a:visited { background-color: inherit; color: #0bf; text-decoration: none; }
+#nav a:hover { background-color: inherit; color: #07f; text-decoration: none; }
+
